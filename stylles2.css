@@ -1,0 +1,257 @@
+a {
+  text-decoration: none;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+header {
+  padding-top: 24px;
+  padding-bottom: 94px;
+}
+header::after {
+  margin-top: 25px;
+  content: '';
+  width: 100%;
+  height: 1px;
+  display: block;
+  background: #ececec;
+}
+.container {
+  max-width: 1200px;
+  padding: 0px 15px;
+  margin: 0 auto;
+}
+.container-flex {
+  display: flex;
+  align-items: center;
+}
+nav > ul {
+  display: flex;
+  align-items: center;
+}
+.logo-text {
+  margin-right: 90px;
+}
+.logo-text > p {
+  color: #000;
+  font-family: 'Raleway';
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.78px;
+}
+.ul-nav {
+  margin-right: 300px;
+}
+.ul-nav > li:not(:last-child) {
+  margin-right: 50px;
+}
+.ul-nav > li > a:hover > p {
+  color: #2196f3;
+}
+.logo-text > p > span {
+  color: #2196f3;
+  font-family: 'Raleway';
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.78px;
+}
+.ul-nav > li > a > p {
+  color: #212121;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.28px;
+}
+.extrainf-header-ul {
+  display: flex;
+  align-items: center;
+}
+.extrainf-header-ul > li {
+  display: flex;
+  align-items: center;
+}
+.extrainf-header-ul > li > a > p {
+  color: #757575;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.28px;
+}
+.extrainf-header-ul > li:not(:last-child) {
+  margin-right: 30px;
+}
+.envelope {
+  width: 16px;
+  height: 12px;
+  fill: #757575;
+  margin-right: 10px;
+}
+.smartphone {
+  width: 10px;
+  height: 16px;
+  fill: rgba(117, 117, 117, 1);
+  margin-right: 10px;
+}
+.button-ul {
+  display: flex;
+  justify-content: center;
+}
+.button-ul > li:not(:last-child) {
+  margin-right: 10px;
+}
+.button-ul > li > button {
+  border-radius: 4px;
+  background: #f5f4fa;
+  padding: 6px 22px;
+  border: none;
+}
+.button-ul > li > button > p {
+  color: #212121;
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px; /* 162.5% */
+  letter-spacing: 0.48px;
+}
+.button-ul > li > button:hover {
+  background: #2196f3;
+}
+.button-ul > li > button:hover > p {
+  color: #fff;
+}
+.ul-shopping {
+  padding-top: 55px;
+  padding-bottom: 94px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  row-gap: 30px;
+  column-gap: 30px;
+}
+.ul-shopping > li {
+  border: 1px solid #eee;
+  background: #fff;
+}
+.shopping-div {
+  padding: 0 24px;
+  padding-bottom: 24px;
+}
+.ul-shopping > li > img {
+  width: 370px;
+  height: 294px;
+  margin-bottom: 20px;
+}
+.shopping-div > h3 {
+  color: #212121;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px; /* 200% */
+  letter-spacing: 1.08px;
+  margin-bottom: 5px;
+}
+.shopping-div > p {
+  color: #757575;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 187.5% */
+  letter-spacing: 0.48px;
+}
+footer {
+  background: #2f303a;
+  padding: 60px 0px;
+}
+.telemail-footer-ul {
+  margin-top: 10px;
+}
+.telemail-footer-ul > li > a > p {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+  letter-spacing: 0.42px;
+}
+.telemail-footer-ul > li:not(:last-child) {
+  margin-bottom: 10px;
+}
+address {
+  color: #fff;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+  letter-spacing: 0.42px;
+  margin-top: 20px;
+}
+.logo-footer > p {
+  color: #fff;
+  font-family: 'Raleway';
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.78px;
+}
+.logo-footer > p > span {
+  color: #2196f3;
+  font-family: 'Raleway';
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.78px;
+}
+.box2 {
+  margin-left: 70px;
+}
+.box2 > p {
+  color: #fff;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.svg-footer {
+  width: 20px;
+  height: 20px;
+  fill: rgba(255, 255, 255, 1);
+}
+.box2 > ul {
+  display: flex;
+}
+.box2 > ul > li:not(:last-child) {
+  margin-right: 10px;
+}
+.div-svg {
+  background: rgba(255, 255, 255, 0.1);
+  width: 44px;
+  border-radius: 50%;
+  height: 44px;
+  padding: 12px;
+}
+.div-svg:hover {
+  background: rgba(33, 150, 243, 1);
+}
